@@ -109,9 +109,9 @@ void printBoard(board_template board[][8], const char p)
 					else {
 						if (p == 'a') {
 							if (board[y][x].color == BLACK)
-								printf(" %s%c%s ", KRED, board[y][x].current, RESET);
+								printf(" %s%c%s ", RED, board[y][x].current, RESET);
 							else
-								printf(" %s%c%s ", KYEL, board[y][x].current, RESET);
+								printf(" %s%c%s ", YELLOW, board[y][x].current, RESET);
 						} else {
 							if (board[y][x].current == 'P') {
 								if (board[y][x].color == BLACK)

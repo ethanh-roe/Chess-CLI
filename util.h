@@ -26,8 +26,8 @@
 #define EMPTY 0
 
 #define MOS 17
-# define KRED  "\x1B[31m"
-# define KYEL  "\x1B[33m"
+# define RED  "\x1B[31m"
+# define YELLOW  "\x1B[33m"
 # define RESET "\033[0m"
 
 // struct for default board template
