@@ -38,6 +38,6 @@ typedef enum KingStatus {
 // function prototypes for main lib
 //
 
-void initBoard(board_template board[][8], unsigned k, char col);
+void initBoard(board_template board[][8], unsigned r, char c);
 
 #endif
