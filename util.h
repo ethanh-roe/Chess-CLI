@@ -23,7 +23,7 @@
 // struct for default board template
 typedef struct board_template {
     char current;
-    char currentSquare[2];
+    char square[2];
     bool occupied;
     int color;
 } board_template;
